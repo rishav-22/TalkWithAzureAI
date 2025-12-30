@@ -1,0 +1,13 @@
+{
+  "name": "ops-copilot-function",
+  "version": "1.0.0",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "@azure/arm-resourcegraph": "^3.0.0",
+    "@azure/identity": "^4.13.0"
+  }
+}
